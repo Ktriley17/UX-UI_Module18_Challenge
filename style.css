@@ -1,0 +1,155 @@
+html {
+    background-color: #2B2929;
+  }
+  
+  nav {
+    display: flex;
+    float: left;
+    margin: 0px;
+    width: 100%;
+  }
+  
+  .container {
+    font-size: 20px;
+    background-color: darkGray;
+  }
+  
+  ul {
+    background-color: lightBlue;
+    width: 100%;
+    text-align: center;
+  
+    
+  }
+  
+  li {
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+    padding: 50px;
+  }
+  
+  #hello{
+    color: white;
+  }
+  
+  #introAbout {
+    color: white;
+    font-size: 30px;
+  }
+  
+  .skills {
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  #skillGrid {
+    margin: 0px 5%;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-areas:
+    "userResearch uiDesign webDev";
+  }
+  
+  #userResearch {
+    grid-area: userResearch;
+    background-color: lightGray;
+    margin: 10px;
+  }
+  
+  #uiDesign {
+    grid-area: uiDesign;
+    background-color: lightGray;
+    margin: 10px;
+  }
+  
+  
+  #webDev {
+    grid-area: webDev;
+    background-color: lightGray;
+    margin: 10px;
+  }
+  
+  .skillHeader {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .skillDescription {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .mainHeader {
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  #workGrid {
+    display: grid;
+    margin: 100px;
+    justify-content: center;
+    grid-template-rows: 400px 400px 400px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "gov"
+    "nonProf"
+    "streamline"
+  }
+  
+  #gov {
+    grid-area: nonProf;
+    background-color: lightGray;
+    height: 350px;
+  }
+  
+  #nonProf {
+    grid-area: nonProf;
+    background-color: lightGray;
+    height: 350px;
+  }
+  
+  #streamline {
+    grid-area: streamline;
+    background-color: lightGray;
+    height: 350px;
+  }
+  
+  .workHeader {
+    text-align: right;
+    padding: 50px;
+  }
+  
+  .workDescription {
+    text-align: right;
+    padding-right: 50px;
+    padding-left: 500px;
+  }
+  
+  .workImg {
+    display: block;
+    float: left;
+  }
+  
+  
+  .buttonLearnMore {
+    background-color: white;
+    border: 5px solid orange;
+    border-color: orange;
+    display: inline-block;
+    color: orange;
+    padding: 15px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 25px;
+    float: right;
+  }
+  
+  
+  
+  
